@@ -14,7 +14,7 @@ namespace Lab.Core
         static void Main(string[] args)
         {
             StreamReader reader = new StreamReader("../../../version");
-            NesterenkoLog.I().Log("Версия программы " + reader.ReadLine());
+            NesterenkoLog.I().Log("Версия программы: " + reader.ReadLine());
             
             try
             {
