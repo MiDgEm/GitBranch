@@ -57,5 +57,38 @@
     <None Include="App.config" />
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Core\.git\config" />
+    <Content Include="Core\.git\description" />
+    <Content Include="Core\.git\HEAD" />
+    <Content Include="Core\.git\hooks\applypatch-msg.sample" />
+    <Content Include="Core\.git\hooks\commit-msg.sample" />
+    <Content Include="Core\.git\hooks\fsmonitor-watchman.sample" />
+    <Content Include="Core\.git\hooks\post-update.sample" />
+    <Content Include="Core\.git\hooks\pre-applypatch.sample" />
+    <Content Include="Core\.git\hooks\pre-commit.sample" />
+    <Content Include="Core\.git\hooks\pre-merge-commit.sample" />
+    <Content Include="Core\.git\hooks\pre-push.sample" />
+    <Content Include="Core\.git\hooks\pre-rebase.sample" />
+    <Content Include="Core\.git\hooks\pre-receive.sample" />
+    <Content Include="Core\.git\hooks\prepare-commit-msg.sample" />
+    <Content Include="Core\.git\hooks\push-to-checkout.sample" />
+    <Content Include="Core\.git\hooks\update.sample" />
+    <Content Include="Core\.git\index" />
+    <Content Include="Core\.git\info\exclude" />
+    <Content Include="Core\.git\logs\HEAD" />
+    <Content Include="Core\.git\logs\refs\heads\master" />
+    <Content Include="Core\.git\logs\refs\remotes\origin\HEAD" />
+    <Content Include="Core\.git\objects\pack\pack-7b5fe28b265d38424b4e7be204a0fd3457bbf08d.idx" />
+    <Content Include="Core\.git\objects\pack\pack-7b5fe28b265d38424b4e7be204a0fd3457bbf08d.pack" />
+    <Content Include="Core\.git\packed-refs" />
+    <Content Include="Core\.git\refs\heads\master" />
+    <Content Include="Core\.git\refs\remotes\origin\HEAD" />
+    <Content Include="Core\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Core\.git\objects\info" />
+    <Folder Include="Core\.git\refs\tags" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

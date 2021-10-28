@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Nesterenko
+namespace Lab.Core
 {
     class LinearEquation
     {
